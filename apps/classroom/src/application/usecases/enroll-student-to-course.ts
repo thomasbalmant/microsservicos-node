@@ -26,6 +26,7 @@ export class EnrollStudentToCourse {
 
   async execute(request: EnrollStudentToCourseRequest): Promise<void> {
     let course = await this.coursesRepository.findByPurchasesProductId(request.course.purchasesProductId);
+    console.log('course:', course)
 
     if (!course) {
       course = new Course({
