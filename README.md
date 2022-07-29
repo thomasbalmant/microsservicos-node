@@ -1,3 +1,3 @@
-# microsservicos-node
+# microsservicos-node.js
 
-## https://www.youtube.com/watch?v=wcz_eDi2iIk
+## Link do projeto: https://www.youtube.com/watch?v=wcz_eDi2iIk
